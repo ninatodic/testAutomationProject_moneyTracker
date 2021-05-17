@@ -1,0 +1,21 @@
+{
+  "name": "testautomationprojects",
+  "version": "1.0.0",
+  "description": "Test automation project for MoneyTracker app",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --timeout 100000"
+  },
+  "author": "Nina Todic",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chromedriver": "^90.0.0",
+    "config": "^3.3.6",
+    "selenium-webdriver": "^4.0.0-beta.3"
+  }
+}
